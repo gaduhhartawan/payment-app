@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+}
+
+.bg-blue-gradient {
+  background: rgb(201,231,242);
+  background: linear-gradient(130deg, rgba(201,231,242,1) 0%, rgba(98,186,218,1) 69%);
+}
+
+.scroll-none::-webkit-scrollbar {
+  display: none;
+}
